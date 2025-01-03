@@ -21,16 +21,16 @@ class Config(object):
     TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", ""))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "28094744"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "a75af4285edc7747c57bb19147ca0b9b")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
     
     # Telegram maximum file upload size
-    TECH_VJ_MAX_FILE_SIZE = 50000000
+    TECH_VJ_MAX_FILE_SIZE = 5000000000
     TECH_VJ_TG_MAX_FILE_SIZE = 4194304000 #2097152000
-    TECH_VJ_FREE_USER_MAX_FILE_SIZE = 50000000
+    TECH_VJ_FREE_USER_MAX_FILE_SIZE = 5000000000
     
     # chunk size that should be used with requests
     TECH_VJ_CHUNK_SIZE = int(128)
@@ -47,8 +47,8 @@ class Config(object):
     TECH_VJ_PROCESS_MAX_TIMEOUT = 3600
     
     # your telegram account id
-    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "")) 
-    TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
+    TECH_VJ_OWNER_ID = int(os.environ.get("Nikhil_saini_khe", "")) 
+    TECH_VJ_SESSION_NAME = "URLUPLOADER_bot"
     
     # database uri (mongodb)
     TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "")
